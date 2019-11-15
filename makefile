@@ -1,6 +1,6 @@
 cc = gcc
 src_files = $(wildcard *.c)
-#obj1_files = $(wildcard *.o) ERROR!!!
+obj1_files = $(wildcard *.o)
 obj1_files = DIO.o LCD.o main.o
 dep_files = DIO.d LCD.d main.d
 link_target = main.exe
